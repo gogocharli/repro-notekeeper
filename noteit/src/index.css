@@ -1,0 +1,36 @@
+*{ /* Every Element */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+body, html{
+  height: 100%;
+  width: 100%;
+}
+hr{
+  margin-top: 15px;
+}
+#root{
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  /*border: 3px solid blue;*/
+  overflow: hidden;
+}
+#container{
+  position: relative;
+  width: 100%;
+  /*border: 2px solid red;*/
+}
+/* ----------------------------------  */
+:root{
+  --darkWhite: #f2f2f2;
+  --seaBlue: #4d98c4;
+  --darkSeaBlue: #2b5c79;
+}
+.note.hide{
+  display: none;
+}

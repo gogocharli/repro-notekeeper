@@ -1,0 +1,13 @@
+#noteDisplay{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid orange;
+}
+#noNotes-msg{
+    position: absolute;
+    /*border: 2px solid red;*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

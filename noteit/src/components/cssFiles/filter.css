@@ -1,0 +1,26 @@
+#filter-container{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 105%;
+    left: 30%;
+    transform: translateX(-30%);
+    overflow: hidden;
+    z-index: 3;
+}
+.filterOption{
+    width: 100%;
+    border-bottom: 2px solid darkgray;
+	background-color: lightgray;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.filterOption p{
+    color: white;
+    font-weight: 600;
+}
+.filterOption:hover{
+    cursor: pointer;
+    background-color: gray;
+}

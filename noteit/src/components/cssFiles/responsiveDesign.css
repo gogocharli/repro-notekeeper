@@ -1,0 +1,56 @@
+@media screen and (max-width: 500px){
+    #root{
+        min-width: 350px;
+        /*border: 2px solid green;*/
+    }
+    #filter-container{
+        left: 30%;
+        transform: translateX(-30%);
+    }
+}
+@media screen and (min-width: 500px){
+    #newNoteModal{
+        min-width: 30vw;
+    }
+    .header{
+        min-width: 30vw;
+    }
+}
+@media screen and (min-width: 700px){
+    #filter-container{
+        left: 20%;
+        transform: translateX(-20%);
+    }
+}
+@media screen and (min-width: 800px){
+    #filter-container{
+        left: 15%;
+        transform: translateX(-15%);
+    }
+}
+@media screen and (min-width: 900px){
+    #filter-container{
+        left: 10%;
+        transform: translateX(-10%);
+    }
+}
+@media screen and (min-width: 1000px){
+    #newNoteModal{
+        min-width: 30vw;
+    }
+    .header{
+        min-width: 20vw;
+    }
+    #filter-container{
+        left: 12%;
+        transform: translateX(-12%);
+    }
+}
+@media screen and (min-width: 1200px){
+    #filter-container{
+        left: 8%;
+        transform: translateX(-8%);
+    }
+}
+
+

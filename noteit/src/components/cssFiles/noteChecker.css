@@ -1,0 +1,50 @@
+#noteDisplay{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px;
+    /*border: 2px solid orange;*/
+
+    display: flex;
+    justify-content: center;
+}
+#msg{
+    color: lightgrey;
+}
+.note{
+    position: relative;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header{
+    position: relative;
+    padding: 5px;
+    min-width: 50vw;
+    display: flex;
+    background-color: lightgray;
+}
+.header span{
+    color: gray;
+	font-size: 14px;
+	font-weight: 800;
+}
+.body{
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+.body span{
+    font-size: 14px;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    padding: 2px 5px;
+    background-color: lightgray;
+}
+.footer span{
+    font-size: 14px;
+    color: gray;
+}

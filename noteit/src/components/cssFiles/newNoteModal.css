@@ -1,0 +1,62 @@
+#newNoteModal{
+	position: fixed;
+	min-width: 90vw;
+	background-color: white;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid lightgray;
+	border-radius: 5px;
+	z-index: 99;
+}
+#newNote-header{
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	/*border: 2px solid red;*/
+	background-color: lightgray;
+
+	display: flex;
+	justify-content: space-between;
+}
+#newNote-header span{
+	color: gray;
+}
+#newNote-header span:hover{
+	cursor: pointer;
+}
+#newNote-header h2{
+	color: gray;
+	font-size: 14px;
+	font-weight: 800;
+}
+#newNote-content{
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	background-color: white;
+	line-height: 30px;
+}
+input{
+	margin-left: 5px;
+}
+#noteMsg{
+	position: relative;
+	width: 100%;
+	padding: 5px;
+}
+#submit{
+	position: relative;
+	padding: 3px;
+	border: 1px solid var(--seaBlue);
+	background-color: var(--seaBlue);
+	color: white;
+	border-radius: 5px;
+}
+#submit p{
+	font-weight: 600;
+}
+#submit:hover{
+	cursor: pointer;
+	padding: 4px;
+}
