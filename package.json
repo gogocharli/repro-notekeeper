@@ -6,7 +6,7 @@
     "start": "node server/index.js",
     "client": "npm start --prefix noteit",
     "dev": "concurrently \"npm run start\" \"npm run client\"",
-    "build": "npm run build --build"
+    "build": "npm run build --prefix build"
   },
   "keywords": [],
   "author": "",
