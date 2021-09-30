@@ -11,16 +11,7 @@ const app = express(); // connect to the server
 app.use(cors()); // bypass CORS
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../build')));
-//app.use(express.static(path.join(__dirname, "../noteit/public")));
-//---------------------------------------------
-/*app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, '../build', 'index.html'))
-});*/
 
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '../noteit/public/index.html');
-});
 app.get('/api', (req, res) => {
   res.json(data);
 });
