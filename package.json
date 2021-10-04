@@ -1,29 +1,44 @@
 {
-  "name": "notekeeper_nodebackend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server/index.js",
-    "client": "npm start --prefix noteit",
-    "dev": "concurrently \"npm run start\" \"npm run client\"",
-    "build": "npm run build --prefix client"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "noteit",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
     "nodemon": "^2.0.12",
     "path": "^0.12.7"
   },
-  "devDependencies": {
-    "concurrently": "^6.2.1"
+  "scripts": {
+    "start": "export PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "engines": {
-    "node": "14.x",
-    "npm": "7.20.3"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "description": ""
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
